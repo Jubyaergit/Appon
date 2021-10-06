@@ -1,0 +1,605 @@
+@media (min-width:320px) and (max-width:575px){
+    nav img{
+        vertical-align: middle;
+        width: 60%;
+    }
+
+    .navbar-light .navbar-brand {
+        width: 67%;
+    }
+
+    nav ul li{
+        padding: 12px 0 !important;
+    }
+
+    nav ul li a {
+        text-align: center;
+        
+    }
+
+    nav ul li a::after{
+        display: none;
+    }
+
+    nav ul li{
+        background: #744fa0;
+    }
+
+    nav button i{
+        color: #fff;
+        font-size: 28px;
+    }
+    
+    .navbar-light .navbar-toggler {
+        color: transparent;
+        border-color: transparent;
+    }
+
+    #banner-part .banner h1 {
+        font-size: 56px;
+    }
+
+    #banner-part .banner h3 {
+        font-size: 23px;
+    }
+
+    #banner-part .banner .overlay h3::after {
+        bottom: -20px;
+    }
+
+    #banner-part .banner p {
+        width: auto;
+        font-size: 12px;
+        padding-top: 27px;
+    }
+
+    #banner-part .banner .overlay a {
+        display: inline-block;
+        padding: 6px 5px 6px 45px;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 9px;
+    }
+
+    #banner-part .banner .overlay a i {
+        left: -10px;
+    }
+
+    #about-part {
+        padding: 0;
+    }
+
+    #about-part p {
+        padding: 0;
+    }
+
+    #about-part .title {
+        margin-bottom: 0;
+    }
+
+    #about-part .title img {
+        width: 32%;
+    }
+
+    #about-part img {
+        width: 100%;
+    }
+
+    #awesome-part {
+        padding: 25px 0;
+    }
+
+    #awesome-part .sequrity {
+        text-align: center;
+        width: auto;
+        margin-left: 0;
+    }
+
+    #awesome-part .screenshot img{
+        margin-top: 30px;
+    }
+
+    #awesome-part .sequrity p {
+        padding: 8px 0;
+    }
+
+    #awesome-part .icon .item::after{
+        display: none;
+      }
+
+      #awesome-part .icon .item h3,
+      #awesome-part .icon .item p
+      {
+          display: none;
+      }
+
+      #awesome-part .icon .item{
+          margin: 0 auto;
+      }
+
+      #awesome-part .icon{
+          display: flex;
+          
+      }
+
+      #awesome-part .icon .item i{
+          position: static;
+      }
+
+      #screenshots-part .slick-dots li button {
+        height: 15px;
+        width: 15px;
+        margin: 0px 2px;
+        transform: translateX(-50%);
+    }
+
+    #screenshots-part {
+        padding-bottom: 80px;
+    }
+
+    #screenshots-part .slick-dots .slick-active button::after {
+        height: 6px;
+        width: 6px;
+        bottom: -2px;
+    }
+
+    #pricing-part .item{
+        margin-bottom: 40px;
+    }
+
+    #team-part .main .item {
+        margin: 51px 20px;
+    }
+
+    #team-part .main .item .text {
+        padding: 22px 5px;
+    }
+
+    #team-part .main .item:hover .text {
+        top: 90%;
+    }
+
+    #team-part .main .item .text{
+        top: 90%;
+      }
+
+      #team-part .main .item .text{
+          border-top: 0;
+      }
+
+      #team-part .main .item .img{
+        top: -50px;
+      }
+
+      #feedback-part .overlay .box {
+        width: auto;
+    }
+
+    #feedback-part .overlay .box p {
+        padding: 25px 22px;
+        text-align: center;
+    }
+
+    #feedback-part .overlay .img-box {
+        width: auto;
+    }
+
+    #feedback-part .slick-dots li button {
+        height: 15px;
+        width: 15px;
+        margin: 0px 3px;
+        transform: translate(-50%,-50%);
+    }
+
+    #feedback-part .overlay {
+        padding-top: 50px;
+    }
+
+    #touch-part .top input{
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
+
+@media (min-width:575px) and (max-width:767px){
+    nav img{
+        vertical-align: middle;
+        width: 60%;
+    }
+
+    .navbar-light .navbar-brand {
+        width: 67%;
+    }
+
+    nav ul li{
+        padding: 12px 0 !important;
+    }
+
+    nav ul li a {
+        text-align: center;
+        
+    }
+
+    nav ul li a::after{
+        display: none;
+    }
+
+    nav ul li{
+        background: #744fa0;
+    }
+
+    nav button i{
+        color: #fff;
+        font-size: 28px;
+    }
+    
+    .navbar-light .navbar-toggler {
+        color: transparent;
+        border-color: transparent;
+    }
+
+    #banner-part .banner h1 {
+        font-size: 56px;
+    }
+
+    #banner-part .banner h3 {
+        font-size: 23px;
+    }
+
+    #banner-part .banner .overlay h3::after {
+        bottom: -20px;
+    }
+
+    #banner-part .banner p {
+        width: auto;
+        font-size: 16px;
+        padding-top: 27px;
+    }
+
+    #banner-part .banner .overlay a {
+        display: inline-block;
+        padding: 6px 5px 6px 45px;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 9px;
+    }
+
+    #banner-part .banner .overlay a i {
+        left: -10px;
+    }
+
+    #about-part {
+        padding: 0;
+    }
+
+    #about-part p {
+        padding: 0;
+    }
+
+    #about-part .title {
+        margin-bottom: 0;
+    }
+
+    #about-part .title img {
+        width: 32%;
+    }
+
+    #about-part img {
+        width: 100%;
+    }
+
+    #awesome-part {
+        padding: 25px 0;
+    }
+
+    #awesome-part .sequrity {
+        text-align: center;
+        width: auto;
+        margin-left: 0;
+    }
+
+    #awesome-part .screenshot img{
+        margin-top: 30px;
+    }
+
+    #awesome-part .sequrity p {
+        padding: 8px 0;
+    }
+
+    #awesome-part .icon .item::after{
+        display: none;
+      }
+
+      #awesome-part .icon .item h3,
+      #awesome-part .icon .item p
+      {
+          display: none;
+      }
+
+      #awesome-part .icon .item{
+          margin: 0 auto;
+      }
+
+      #awesome-part .icon{
+          display: flex;
+          
+      }
+
+      #awesome-part .icon .item i{
+          position: static;
+      }
+
+      #screenshots-part .slick-dots li button {
+        height: 15px;
+        width: 15px;
+        margin: 0px 2px;
+        transform: translateX(-50%);
+    }
+
+    #screenshots-part {
+        padding-bottom: 80px;
+    }
+
+    #screenshots-part .slick-dots .slick-active button::after {
+        height: 6px;
+        width: 6px;
+        bottom: -2px;
+    }
+
+    #pricing-part .item{
+        margin-bottom: 40px;
+    }
+
+    #team-part .main .item {
+        margin: 51px 20px;
+    }
+
+    #team-part .main .item .text {
+        padding: 22px 5px;
+    }
+
+    #team-part .main .item:hover .text {
+        top: 90%;
+    }
+
+    #team-part .main .item .text{
+        top: 90%;
+      }
+
+      #team-part .main .item .text{
+          border-top: 0;
+      }
+
+      #team-part .main .item .img{
+        top: -50px;
+      }
+
+      #feedback-part .overlay .box {
+        width: auto;
+    }
+
+    #feedback-part .overlay .box p {
+        padding: 25px 22px;
+        text-align: center;
+    }
+
+    #feedback-part .overlay .img-box {
+        width: auto;
+    }
+
+    #feedback-part .slick-dots li button {
+        height: 15px;
+        width: 15px;
+        margin: 0px 3px;
+        transform: translate(-50%,-50%);
+    }
+
+    #feedback-part .overlay {
+        padding-top: 50px;
+    }
+
+    #touch-part .top input{
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media (min-width:767px) and (max-width:991px){
+    nav img{
+        vertical-align: middle;
+        width: 60%;
+    }
+
+    .navbar-light .navbar-brand {
+        width: 67%;
+    }
+
+    nav ul li{
+        padding: 12px 0 !important;
+    }
+
+    nav ul li a {
+        text-align: center;
+        
+    }
+
+    nav ul li a::after{
+        display: none;
+    }
+
+    nav ul li{
+        background: #744fa0;
+    }
+
+    nav button i{
+        color: #fff;
+        font-size: 28px;
+    }
+    
+    .navbar-light .navbar-toggler {
+        color: transparent;
+        border-color: transparent;
+    }
+
+    #banner-part .banner h1 {
+        font-size: 56px;
+    }
+
+    #banner-part .banner h3 {
+        font-size: 23px;
+    }
+
+    #banner-part .banner .overlay h3::after {
+        bottom: -20px;
+    }
+
+    #banner-part .banner p {
+        width: auto;
+        font-size: 16px;
+        padding-top: 27px;
+    }
+
+    #banner-part .banner .overlay a i {
+        left: -10px;
+    }
+
+    #about-part {
+        padding: 0;
+    }
+
+    #about-part p {
+        padding: 0;
+    }
+
+    #about-part .title {
+        margin-bottom: 0;
+    }
+
+    #about-part .title img {
+        width: 32%;
+    }
+
+    #about-part img {
+        width: 70%;
+    }
+
+    #about-part .img {
+        text-align: center;
+    }
+
+    #awesome-part {
+        padding: 25px 0;
+    }
+
+    #awesome-part .sequrity {
+        text-align: center;
+        width: auto;
+        margin-left: 0;
+    }
+
+    #awesome-part .screenshot img{
+        margin-top: 30px;
+    }
+
+    #awesome-part .sequrity p {
+        padding: 8px 0;
+    }
+
+    #awesome-part .icon .item::after{
+        display: none;
+      }
+
+      #awesome-part .icon .item h3,
+      #awesome-part .icon .item p
+      {
+          display: none;
+      }
+
+      #awesome-part .icon .item{
+          margin: 0 auto;
+      }
+
+      #awesome-part .icon{
+          display: flex;
+          
+      }
+
+      #awesome-part .icon .item i{
+          position: static;
+      }
+
+      #screenshots-part .slick-dots li button {
+        height: 15px;
+        width: 15px;
+        margin: 0px 2px;
+        transform: translateX(-50%);
+    }
+
+    #screenshots-part {
+        padding-bottom: 80px;
+    }
+
+    #screenshots-part .slick-dots .slick-active button::after {
+        height: 6px;
+        width: 6px;
+        bottom: -2px;
+    }
+
+    #pricing-part .item{
+        margin-bottom: 40px;
+    }
+
+    #team-part .main .item {
+        margin: 51px 20px;
+    }
+
+    #team-part .main .item .text {
+        padding: 22px 5px;
+    }
+
+    #team-part .main .item:hover .text {
+        top: 80%;
+    }
+
+    #team-part .main .item .text{
+        top: 80%;
+      }
+
+      #team-part .main .item .img{
+        top: -50px;
+      }
+
+      #feedback-part .overlay .box {
+        width: auto;
+    }
+
+    #feedback-part .overlay .box p {
+        padding: 25px 22px;
+        text-align: center;
+    }
+
+    #feedback-part .overlay .img-box {
+        width: auto;
+    }
+
+    #feedback-part .slick-dots li button {
+        height: 15px;
+        width: 15px;
+        margin: 0px 3px;
+        transform: translate(-50%,-50%);
+    }
+
+    #feedback-part .overlay {
+        padding-top: 50px;
+    }
+
+    #touch-part .top input{
+        margin-bottom: 10px;
+    }
+}
+
+

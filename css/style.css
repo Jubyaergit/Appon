@@ -1,0 +1,891 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* .container{
+  width: 1320px;
+  margin: 0 auto;
+} */
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/* .clr{
+  clear: both;
+} */
+.title{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 50px 0;
+}
+/* ===================================
+       navber part start
+==================================== */
+/* nav {
+  padding: 20px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+}
+nav .main{
+  display: flex;
+}
+nav .logo{
+  width: 20%;
+  margin-top: 40px;
+}
+nav .logo img{
+  cursor: pointer;
+}
+nav .menu{
+  width: 70%;
+}
+nav .menu ul li a {
+  padding: 0 20px;
+  text-align: right;
+  color: white;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  position: relative;
+  transition: .4s;
+}
+nav .menu ul li a:before{
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  width: 0px;
+  height: 2px;
+  background: #744fa0;
+  content: "";
+  margin-left: 20px;
+  transition: .4s;
+}
+nav .menu ul li a:hover:before{
+  width: 20px;
+}
+nav .menu ul li a:hover{
+  color: #a788cc;
+}
+nav .menu ul li{
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 60px
+}
+nav .menu{
+  text-align: right;
+}
+nav .btn{
+  width: 10%;
+  margin-top: 50px;
+}
+nav .btn button{
+  height: 32px;
+  padding: 0 20px;
+  background: #744fa0;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+  transition: linear .2s;
+  color: white;
+  outline: 0;
+  border: 1px solid #744fa0;
+}
+nav .btn button:hover{
+  background: #fff;
+  color: #7344ad;
+  outline: 0;
+  border: 1px solid #fff;
+} */
+
+.bg-light {
+	background-color: transparent !important;
+  position: absolute !important;
+  z-index: 999;
+  width: 100%;
+  padding: 50px 0;
+}
+
+nav ul li a{
+  color: #fff !important;
+  margin: 0 15px;
+  position: relative;
+}
+
+nav ul li a::after{
+  height: 2px;
+  width: 0px;
+  background: #744fa0;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  content: "";
+  margin-left: 8px;
+  transition: .4s;
+}
+
+nav ul li a:hover:after{
+  width: 25px;
+}
+
+nav .btn button{
+  height: 32px;
+  padding: 0 20px;
+  background: #744fa0;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+  transition: linear .2s;
+  color: white;
+  outline: 0;
+  border: 1px solid #744fa0;
+}
+nav .btn button:hover{
+  background: #fff;
+  color: #7344ad;
+  outline: 0;
+  border: 1px solid #fff;
+} 
+/* ===================================
+       navber part end
+==================================== */
+/* ===================================
+       Banner part start
+==================================== */
+#banner-part .banner{
+  background: url(../images/banner1.jpg) no-repeat center;
+  background-size: cover;
+}
+#banner-part .banner-2{
+  background: url(../images/banner2.jpg) no-repeat center;
+  background-size: cover;
+}
+#banner-part .banner-3{
+  background: url(../images/banner3.jpg) no-repeat center;
+  background-size: cover;
+}
+#banner-part .banner{
+  text-align: right;
+}
+#banner-part .banner h1{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 56px;
+}
+#banner-part .banner h3{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  position: relative;
+}
+#banner-part .banner .overlay h3::after{
+  position: absolute;
+  right: 0;
+  bottom: -30px;
+  width: 200px;
+  height: 1px;
+  content: "";
+  background: white;
+}
+#banner-part .banner p{
+  width: 500px;
+  margin-left: auto;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 50px;
+  line-height: 19px;
+}
+#banner-part .banner h1::first-letter{
+  color: #a788cc;
+}
+#banner-part .banner .overlay{
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.623);
+  padding: 100px 0;
+  padding-top: 200px;
+}
+#banner-part .banner .overlay a{
+  display: inline-block;
+  color: white;
+  background:#744fa0;
+  padding: 10px 30px;
+  text-align: left;
+  position: relative;
+  font-size: 18px;
+  padding-left: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+  transition: linear .2s;
+}
+#banner-part .banner .overlay a span{
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+#banner-part .banner .overlay a i{
+  position: absolute;
+  top: 50;
+  left: 0;
+  font-size: 33px;
+  padding-left: 20px;
+}
+#banner-part .banner .overlay a:hover{
+  background: #fff;
+  color: #353535;
+}
+#banner-part .slick-dots{
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+}
+#banner-part .slick-dots li button{
+  font-size: 0;
+  height: 25px;
+  width: 25px;
+  background: transparent;
+  border-radius: 50%;
+  margin-top: 20px;
+  border: 3px solid #fff;
+  position: relative;
+}
+#banner-part .slick-dots li button::after{
+  height: 12px;
+  width: 12px;
+  background: #7344ad;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+  content: "";
+  opacity: 0;
+}
+#banner-part .slick-dots .slick-active button::after{
+  opacity: 1;
+}
+/* ===================================
+       Banner part end
+==================================== */
+/* ===================================
+       about part start
+==================================== */
+#about-part{
+  padding: 100px 0;
+}
+/* #about-part .text{
+  width: 60%;
+  float: left;
+} */
+#about-part .img{
+  /* width: 40%;
+  float: left; */
+  text-align: right;
+}
+#about-part .title{
+  text-align: center;
+  margin-bottom: 25px;
+}
+#about-part .title h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#about-part p{
+  text-align: center;
+  padding: 10px 90px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 24px;
+  color: #777;
+}
+#about-part .p2{
+  /* width: 600px; */
+}
+/*===================================
+       about part end
+==================================== */
+/*===================================
+       awesome part start
+==================================== */
+#awesome-part{
+  padding: 50px 0;
+}
+#awesome-part .icon .item{
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+#awesome-part .icon .item::after{
+  height: 1px;
+  background: #353535;
+  width: 300px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  transition: .4s;
+}
+
+#awesome-part .icon .item:last-child::after{
+  display: none;
+}
+
+#awesome-part .icon .item:hover:after{
+  width: 380px;
+  background: #744fa0;
+}
+
+#awesome-part .icon .item i{
+  position: absolute;
+  top: 12%;
+  left: 0;
+  font-size: 35px;
+  color: #353535;
+  transition: .4s;
+}
+
+#awesome-part .icon .item:hover i{
+  color: #7344ad;
+}
+
+#awesome-part .icon .item h3{
+  padding-left: 55px;
+  transition: .4s;
+}
+
+#awesome-part .icon .item:hover h3{
+  color: #7344ad;
+}
+
+#awesome-part .icon .item p{
+  padding-left: 55px;
+  margin-top: -8px;
+  transition: .4s;
+}
+
+#awesome-part .icon .item:hover p{
+  color: #7344ad;
+}
+
+
+#awesome-part .screenshot{
+  text-align: center;
+  margin-top: 15px;
+}
+#awesome-part .sequrity{
+  text-align: right;
+  width: 360px;
+  margin-left: 60px;
+  margin-top: 80px;
+}
+#awesome-part .sequrity h2{
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: #353535;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#awesome-part .sequrity p{
+  font-family:'Open Sans','sans-serif';
+  color: #777;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 15px 0;
+}
+/*===================================
+       awesome part end
+==================================== */
+/*===================================
+       screenshots part start
+==================================== */
+#screenshots-part{
+  padding-bottom: 150px;
+  
+}
+#screenshots-part .img-slick img{
+  margin: 0 10px;
+}
+#screenshots-part .slick-dots li{
+  display: inline-block;
+}
+#screenshots-part .slick-dots li button{
+  font-size: 0;
+  height: 20px;
+  width: 20px;
+  margin: 20px 10px;
+  border-radius: 50%;
+  border: 3px solid #353535;
+  position: relative;
+  cursor: pointer;
+  background: white;
+}
+#screenshots-part .slick-dots{
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#screenshots-part .slick-dots .slick-active button::after{
+  height: 8px;
+  width: 8px;
+  background: #7344ad;
+  position: absolute;
+  left: 50%;
+  bottom: ;
+  transform: translate(-50%,-50%);
+  content: "";
+  border-radius: 50%;
+}
+/*===================================
+       screenshots part end
+==================================== */
+/*===================================
+       video part end
+==================================== */
+#video{
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0,.07);
+  background: url(../images/video_img.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#video .overlay{
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.705);
+  font-size: 60px;
+  padding: 180px 0;
+  text-align: center;
+  color: white;
+}
+#video .overlay a{
+  color: #fff;
+}
+#video .overlay i{
+  cursor: pointer;
+  transition: .25s;
+}
+#video .overlay i:hover{
+  color: #7344ad;
+}
+/*===================================
+       video part end
+==================================== */
+/*===================================
+       Pricing part start
+==================================== */
+#pricing-part{
+  padding: 50px 0;
+}
+/* #pricing-part .main{
+  display: flex;
+  justify-content: space-between;
+} */
+#pricing-part .item{
+  /* width: 23%; */
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  border: 1px solid #f1f1f1;
+  border-bottom: none;
+  transition: .4s;
+}
+#pricing-part .item h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: #353535;
+  background: #f1f1f1;
+  padding: 15px 0;
+  transition: .4s;
+}
+#pricing-part .item .round{
+  height: 150px;
+  width: 150px;
+  margin: 25px auto;
+  border-radius: 50%;
+  border: 4px solid #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  color: #353535;
+  font-weight: 700;
+}
+#pricing-part .item .round .price h5 span{
+  font-size: 40px;
+}
+#pricing-part .item ul{
+  background: #f1f1f1;
+  padding: 40px 0;
+}
+#pricing-part .item ul li{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 8px;
+  color: #555555;
+}
+#pricing-part .item .button a{
+  padding: 10px 20px;
+  background: #fff;
+  border: 1px solid #353535;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #000;
+  display: inline-block;
+  transition: .4s;
+}
+#pricing-part .item .button a{
+  position: absolute;
+  left: 50%;
+  bottom: -1%;
+  transform: translate(-50%,50%);display: inline-block;
+}
+#pricing-part .item:hover .button a{
+  background: #7344ad;
+  color: #fff;
+  border: 1px solid #7344ad;
+}
+#pricing-part .item:hover h2{
+  background: #7344ad;
+  color: #fff;
+}
+/*===================================
+       Pricing part end
+==================================== */
+/*===================================
+       team part start
+==================================== */
+#team-part{
+  margin: 50px 0;
+}
+.team-slider{
+  margin: 0px 0;
+}
+#team-part .main{
+  /* display: flex;
+  justify-content: space-between; */
+}
+#team-part .main .item{
+  width: 22%;
+  position: relative;
+  margin: 115px 20px;
+}
+#team-part .main .item .img{
+  width: 100%;
+  top: 0;
+  position: relative;
+  transition: .4s;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+#team-part .main .item:hover .img{
+  top: -50px;
+}
+#team-part .main .item .img img{
+  width: 100%;
+  display: block;
+  position: relative;
+}
+#team-part .main .item .text{
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+  transition: .4s;
+}
+#team-part .main .item .text{
+  padding: 35px 40px;
+  box-sizing: border-box;
+  border: 1px solid rgb(224, 224, 224);
+  text-align: center;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+#team-part .main .item .text h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #353535;
+}
+#team-part .main .item .text h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #999;
+  padding: 5px 0;
+}
+#team-part .main .item .text p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  padding: 0 20px;
+  font-size: 14px;
+  color: #777;
+}
+#team-part .main .item:hover .text{
+  top: 83%;
+}
+#team-part .main .item .img .overlay{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.651);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: .4s;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+#team-part .main .item .img .overlay .icon{
+  text-align: center;
+}
+#team-part .main .item .img .overlay .icon i{
+  height: 60px;
+  width: 60px;
+  background: #f1f1f1;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #353535;
+  margin-top: 170px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: .4s;
+}
+#team-part .main .item .img .overlay .icon i:hover{
+  background: #7344ad;
+  color: #fff;
+}
+#team-part .main .item:hover .img .overlay{
+  opacity: 1;
+}
+#team-part .slick-track{
+  padding-bottom: 120px;
+}
+/*===================================
+       team part end
+==================================== */
+/*===================================
+       feedback part start
+==================================== */
+#feedback-part{
+  background: url(../images/feedback_img.jpg) no-repeat center;
+  background-size: cover;
+}
+#feedback-part .overlay{
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.774);
+  padding: 120px 0;
+}
+#feedback-part .overlay .box{
+  width: 975px;
+  background: white;
+  margin: 0 auto;
+  position: relative;
+}
+#feedback-part .overlay .box p{
+  padding: 50px;
+  box-sizing: border-box;
+}
+#feedback-part .overlay .box .shape{
+  height: 25px;
+  width: 25px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,50%) rotate(45deg);
+}
+#feedback-part .overlay .img-box{
+  width: 585px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+#feedback-part .overlay .img-box .img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 12px auto;
+  position: relative;
+  border: 3px solid transparent;
+  transition: .4s;
+}
+#feedback-part .overlay .img-box .img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+#feedback-part .overlay .img-box .img-overlay{
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.753);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  transition: .4s;
+}
+#feedback-part .overlay .img-box .slick-center .img-overlay{
+  opacity: 0;
+}
+#feedback-part .overlay .img-box .slick-center .img{
+  border-color: #7344ad;
+  transform: scale(1.2);
+}
+#feedback-part .slick-dots li{
+  display: inline-block;
+}
+#feedback-part .slick-dots li button{
+  font-size: 0;
+  height: 20px;
+  width: 20px;
+  margin: 20px 10px;
+  border-radius: 50%;
+  border: 3px solid #353535;
+  position: relative;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #7344ad;
+}
+#feedback-part .slick-dots{
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#feedback-part .slick-dots .slick-active button::after{
+  height: 8px;
+  width: 8px;
+  background: #7344ad;
+  position: absolute;
+  left: 50%;
+  bottom: ;
+  transform: translate(-50%,-50%);
+  content: "";
+  border-radius: 50%;
+}
+/*===================================
+       feedback part end
+==================================== */
+/*===================================
+       touch part start
+==================================== */
+#touch-part{
+  padding: 100px 0;
+}
+
+#touch-part .top input{
+  width: 100%;
+  padding: 15px 10px;
+  border-radius: 5px;
+  border: 1px solid #555555;
+
+}
+
+#touch-part .bottom input{
+  width: 100%;
+  padding: 10px 10px;
+  padding-bottom: 200px;
+  border-radius: 5px;
+  border: 1px solid #555555;
+  margin-top: 25px;
+  box-sizing: border-box;
+}
+#touch-part .button{
+  text-align: center;
+  margin-top: 40px;
+}
+#touch-part .button a{
+  display: inline-block;
+  padding: 10px 25px;
+  background: #744fa0;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  font-weight: bold;
+  font-size: 18px;
+  transition: .4s;
+}
+#touch-part .button a:hover{
+  background: white;
+  color: #744fa0;
+  border-radius: 5px;
+  border: 2px solid #744fa0;
+}
+/*===================================
+       touch part end
+==================================== */
+/*===================================
+       fotoer part start
+==================================== */
+#footer-part{
+  background: #353535;
+}
+#footer-part .item{
+  text-align: center;
+}
+#footer-part .item img{
+  padding: 50px 0;
+}
+#footer-part .item .icon{
+  text-align: center;
+  display: block;
+  padding-bottom: 10px;
+}
+#footer-part .item .icon i{
+  height: 55px;
+  width: 55px;
+  background: #fff;
+  line-height: 55px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 28px;
+  margin: 0 4px;
+  color: #353535;
+  transition: .3s;
+}
+#footer-part .item .icon i:hover{
+  background: #744FA0;
+  color: #fff;
+}
+#footer-part .item p{
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px 0;
+  color: #fff;
+  font-size: 18px;
+}
+#footer-part .item span{
+  color: #7344ad;
+}
+/*===================================
+       fotoer part end
+==================================== */
